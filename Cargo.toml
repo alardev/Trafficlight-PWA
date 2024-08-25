@@ -14,6 +14,9 @@ wasm-bindgen = "0.2"
 wasm-bindgen-futures = "0.4"
 futures = "0.3"
 js-sys = "0.3"
+serde = { version = "*", features = ["derive"] }
+serde-wasm-bindgen = "*"
+gloo = { version = "*" }
 
 # Debug
 tracing = "0.1.40"
